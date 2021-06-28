@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.vanilladb.core.sql.Constant"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.vanilladb.core.storage.buffer.Buffer"/>
+    <fullyQualifiedTypeName name="org.vanilladb.core.storage.log.LogSeqNum"/>
+    <fullyQualifiedTypeName name="org.vanilladb.core.storage.file.BlockId"/>
+    <fullyQualifiedTypeName name="org.vanilladb.core.storage.record.RecordId"/>
+</qualifiedTypeNameHistroy>

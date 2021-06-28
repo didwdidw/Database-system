@@ -1,0 +1,1092 @@
+2021-05-23 16:19:44,839 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-23 16:20:20,666 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.vanilladb:core-patch:0.4.1-2021-spring-as5 @ /Users/timchang/database_systems/db21-assignment-5/core-patch/pom.xml.
+2021-05-23 16:20:21,334 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /core-patch/src/main/java
+2021-05-23 16:20:21,334 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /core-patch/src/main/resources
+2021-05-23 16:20:21,336 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /core-patch/src/test/java
+2021-05-23 16:20:21,336 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /core-patch/src/test/resources
+2021-05-23 16:20:22,006 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///Users/timchang/database_systems/db21-assignment-5/core-patch/repo/org/vanilladb/core/0.4.1-course-20210405-v2/core-0.4.1-course-20210405-v2-sources.jar
+2021-05-23 16:20:22,119 [Worker-7: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.vanilladb:core:0.4.1-course-20210405-v2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.vanilladb:core:jar:sources:0.4.1-course-20210405-v2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-05-23 16:20:23,715 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2021-05-23 16:20:24,543 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///Users/timchang/database_systems/db21-assignment-5/core-patch/repo/org/vanilladb/core/0.4.1-course-20210405-v2/core-0.4.1-course-20210405-v2-javadoc.jar
+2021-05-23 16:20:24,547 [Worker-12: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.vanilladb:core:0.4.1-course-20210405-v2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.vanilladb:core:jar:javadoc:0.4.1-course-20210405-v2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-05-23 16:20:33,596 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:20:33,606 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 16:20:33,630 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:20:33,632 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 16:20:44,893 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.vanilladb:bench:0.4.1-2021-spring-as5 @ /Users/timchang/database_systems/db21-assignment-5/bench/pom.xml.
+2021-05-23 16:20:44,937 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-23 16:20:44,987 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bench/src/main/java
+2021-05-23 16:20:44,988 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bench/src/main/resources
+2021-05-23 16:20:44,989 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bench/src/test/java
+2021-05-23 16:20:45,085 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-05-23 16:20:46,414 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-23 16:20:46,454 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:20:46,461 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-05-23 16:20:46,484 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:20:46,485 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-23 16:29:28,841 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:29:28,848 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 16:29:28,850 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:29:28,851 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 16:29:28,860 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:29:28,862 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 16:29:28,865 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 16:29:28,866 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-23 16:37:24,939 [Worker-21: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:37:24,987 [Worker-21: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:37:25,024 [Worker-21: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:12,904 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:12,923 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:12,936 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:41,680 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:41,711 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:42:41,737 [Worker-28: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:46:55,830 [Worker-31: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:46:55,853 [Worker-31: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:46:55,875 [Worker-31: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:47:07,068 [Worker-34: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:47:07,149 [Worker-34: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:47:07,205 [Worker-34: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:48:25,428 [Worker-34: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:48:25,506 [Worker-34: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:48:25,541 [Worker-34: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:50:42,617 [Worker-31: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:50:42,653 [Worker-31: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 16:50:42,687 [Worker-31: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-23 21:28:03,139 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:28:03,148 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 21:28:03,152 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:28:03,153 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 21:44:57,793 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:44:57,797 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 21:44:57,800 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:44:57,802 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 21:46:42,396 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:46:42,406 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 21:46:42,409 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:46:42,416 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 21:47:36,446 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:47:36,454 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 21:47:36,459 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 21:47:36,460 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 22:14:01,855 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:14:01,876 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 22:14:01,878 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:14:01,880 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 22:15:24,271 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:15:24,282 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 22:15:24,284 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:15:24,285 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-23 22:16:06,205 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:16:06,210 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-23 22:16:06,215 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-23 22:16:06,216 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:23:30,807 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:23:30,814 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:23:30,817 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:23:30,820 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:27:09,993 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:27:09,998 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:27:10,001 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:27:10,002 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:30:18,170 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:30:18,176 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:30:18,179 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:30:18,183 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:31:06,155 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:31:06,160 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:31:06,162 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:31:06,163 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:38:13,227 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:38:13,240 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:38:13,245 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:38:13,246 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:54:01,689 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:54:01,694 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:54:01,697 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:54:01,702 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 02:54:32,741 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:54:32,752 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 02:54:32,756 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 02:54:32,759 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 04:30:39,938 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 04:30:39,951 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-24 04:30:39,955 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-24 04:30:39,957 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-24 20:52:43,865 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-25 16:14:00,111 [Worker-28: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-25 16:50:37,114 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:50:37,213 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:50:37,226 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:50:37,227 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:52:33,364 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:52:33,374 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:52:33,378 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:52:33,379 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 16:52:41,576 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:52:41,578 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:52:41,580 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:52:41,581 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 16:53:39,800 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:53:39,802 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:53:39,804 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:53:39,805 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 16:59:44,830 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:59:44,833 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 16:59:44,836 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 16:59:44,838 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 17:03:24,599 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:03:24,608 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 17:03:24,610 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:03:24,617 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 17:08:12,816 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:08:12,820 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 17:08:12,823 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:08:12,824 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 17:59:49,079 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:59:49,087 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 17:59:49,094 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 17:59:49,096 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:18:53,971 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:18:53,974 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:18:53,976 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:18:53,978 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:19:18,053 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:19:18,056 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:19:18,058 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:19:18,059 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:23:40,358 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:23:40,363 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:23:40,365 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:23:40,367 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:24:12,712 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:24:12,715 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:24:12,717 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:24:12,718 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:24:31,195 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:24:31,198 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:24:31,201 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:24:31,204 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:27:05,036 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:27:05,039 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:27:05,042 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:27:05,043 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:29:06,189 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:29:06,191 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:29:06,194 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:29:06,197 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:32:21,801 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:32:21,807 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:32:21,811 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:32:21,812 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:36:48,199 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:36:48,204 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:36:48,207 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:36:48,211 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:36:51,172 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:36:51,174 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:36:51,176 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:36:51,177 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:43:13,195 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:43:13,198 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:43:13,202 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:43:13,209 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:45:02,482 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:02,507 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:45:02,511 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:02,512 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:45:42,888 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:42,891 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:45:42,894 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:42,897 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:45:48,283 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:48,288 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:45:48,291 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:45:48,292 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 18:47:18,526 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:47:18,530 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 18:47:18,532 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 18:47:18,533 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:35:06,150 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:35:06,157 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:35:06,160 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:35:06,162 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:41:22,751 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:41:22,754 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:41:22,756 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:41:22,757 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:42:15,248 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:42:15,250 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:42:15,258 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:42:15,263 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:50:37,423 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:50:37,427 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:50:37,429 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:50:37,430 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:51:12,366 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:51:12,369 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:51:12,371 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:51:12,372 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:55:01,513 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:55:01,516 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:55:01,518 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:55:01,519 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 19:58:34,773 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:58:34,781 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 19:58:34,783 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 19:58:34,784 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:04:33,262 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:04:33,265 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:04:33,267 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:04:33,268 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:04:40,901 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:04:40,903 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:04:40,906 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:04:40,908 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:05:57,067 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:05:57,070 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:05:57,073 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:05:57,105 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:06:15,374 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:15,378 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:06:15,380 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:15,381 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:06:22,945 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:22,948 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:06:22,950 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:22,951 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:06:30,803 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:30,805 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:06:30,807 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:06:30,808 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:08:27,170 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:08:27,173 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:08:27,175 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:08:27,176 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:14:59,235 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:14:59,237 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:14:59,239 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:14:59,240 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:16:10,675 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:16:10,682 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:16:10,683 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:16:10,684 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:18:50,671 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:18:50,674 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:18:50,676 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:18:50,677 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:48:56,185 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:48:56,189 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:48:56,191 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:48:56,192 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:49:01,767 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:01,768 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:49:01,770 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:01,771 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:49:10,067 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:10,070 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:49:10,072 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:10,073 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:49:13,243 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:13,244 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:49:13,245 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:13,246 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:49:55,238 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:55,243 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:49:55,245 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:49:55,248 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:50:50,438 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:50:50,441 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:50:50,442 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:50:50,443 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:51:55,266 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:51:55,270 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:51:55,272 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:51:55,273 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:52:08,978 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:52:08,981 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:52:08,987 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:52:08,989 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:54:07,052 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:54:07,054 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:54:07,055 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:54:07,056 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:55:30,835 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:55:30,840 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:55:30,841 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:55:30,842 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 20:58:06,267 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:58:06,270 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 20:58:06,272 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 20:58:06,273 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:00:15,889 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:00:15,891 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:00:15,895 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:00:15,897 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:07:35,633 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:07:35,639 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:07:35,641 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:07:35,642 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:28:24,422 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:28:24,426 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:28:24,427 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:28:24,428 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:29:58,419 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:29:58,421 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:29:58,423 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:29:58,424 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:33:02,155 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:33:02,168 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:33:02,169 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:33:02,175 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:51:31,577 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:51:31,582 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:51:31,584 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:51:31,585 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:56:19,944 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:56:19,947 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:56:19,948 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:56:19,948 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:56:47,117 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:56:47,119 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:56:47,120 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:56:47,121 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:59:17,221 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:17,237 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:59:17,245 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:17,250 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:59:26,335 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:26,337 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:59:26,339 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:26,340 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 21:59:36,383 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:36,385 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 21:59:36,387 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 21:59:36,388 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:01:25,270 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:01:25,277 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:01:25,280 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:01:25,282 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:01:50,943 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:01:50,951 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:01:50,959 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:01:50,961 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:02:12,565 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:02:12,571 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:02:12,578 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:02:12,579 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:02:29,708 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:02:29,710 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:02:29,712 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:02:29,713 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:04:24,468 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:04:24,477 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:04:24,480 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:04:24,483 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:04:56,714 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:04:56,719 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:04:56,722 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:04:56,723 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:08:28,542 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:28,556 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:08:28,560 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:28,564 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:08:30,572 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:30,574 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:08:30,576 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:30,577 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:08:50,664 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:50,666 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:08:50,668 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:08:50,671 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:09:44,793 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:09:44,796 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:09:44,798 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:09:44,799 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:34:58,171 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:34:58,176 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:34:58,178 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:34:58,180 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:35:10,991 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:35:10,995 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:35:10,996 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:35:10,998 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:59:21,717 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:59:21,725 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:59:21,729 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:59:21,730 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 22:59:46,886 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:59:46,891 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 22:59:46,893 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 22:59:46,894 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:00:15,307 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:00:15,310 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:00:15,311 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:00:15,312 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:00:58,459 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:00:58,469 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:00:58,474 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:00:58,477 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:05:37,624 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:05:37,627 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:05:37,628 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:05:37,629 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:08:11,444 [Worker-131: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:08:11,453 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:08:11,455 [Worker-131: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:08:11,457 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:08:39,399 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:08:39,402 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:08:39,403 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:08:39,405 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:09:41,268 [Worker-133: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:09:41,270 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:09:41,271 [Worker-133: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:09:41,276 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:10:37,208 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:10:37,211 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:10:37,212 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:10:37,214 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:13:07,926 [Worker-134: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:13:07,929 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:13:07,931 [Worker-134: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:13:07,932 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:17:45,521 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:17:45,526 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:17:45,527 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:17:45,529 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:25:38,353 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:25:38,357 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:25:38,359 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:25:38,360 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-25 23:29:06,735 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-25 23:29:49,706 [Worker-4: Launching QueryTestSuite] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:29:49,862 [Worker-4: Launching QueryTestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-25 23:29:50,041 [Worker-4: Launching QueryTestSuite] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-25 23:29:50,044 [Worker-4: Launching QueryTestSuite] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:38:09,624 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-26 00:38:36,800 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:38:36,814 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:38:36,828 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:38:36,829 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:39:00,164 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:39:00,172 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:39:00,176 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:39:00,177 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:39:45,019 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:39:45,023 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:39:45,029 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:39:45,031 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:46:14,829 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:46:14,832 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:46:14,834 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:46:14,835 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:46:37,376 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:46:37,381 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:46:37,383 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:46:37,385 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:47:01,091 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:47:01,101 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:47:01,116 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:47:01,129 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:48:31,109 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:48:31,113 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:48:31,117 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:48:31,118 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:48:54,745 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:48:54,750 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:48:54,755 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:48:54,757 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:49:27,851 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:49:27,856 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:49:27,860 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:49:27,862 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:50:04,555 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:50:04,561 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:50:04,565 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:50:04,566 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:50:58,381 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:50:58,386 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:50:58,391 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:50:58,392 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:52:34,560 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:52:34,562 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:52:34,565 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:52:34,567 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:53:41,172 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:53:41,174 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:53:41,176 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:53:41,178 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:54:06,653 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:54:06,657 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:54:06,661 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:54:06,663 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:55:13,379 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:55:13,395 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:55:13,404 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:55:13,411 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:56:06,922 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:56:06,925 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:56:06,930 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:56:06,931 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:57:09,061 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:57:09,067 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:57:09,070 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:57:09,071 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:58:24,120 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:58:24,126 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:58:24,129 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:58:24,130 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:58:55,778 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:58:55,780 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:58:55,784 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:58:55,785 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:59:09,693 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:59:09,695 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:59:09,697 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:59:09,700 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 00:59:27,945 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:59:27,949 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 00:59:27,952 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 00:59:27,955 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:01:29,585 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:01:29,589 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:01:29,590 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:01:29,591 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:32:39,398 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:32:39,402 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:32:39,405 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:32:39,407 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:33:18,353 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:33:18,364 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:33:18,369 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:33:18,378 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:57:35,106 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:57:35,114 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:57:35,115 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:57:35,116 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:57:45,995 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:57:45,997 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:57:46,000 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:57:46,003 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 01:59:01,254 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:59:01,258 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 01:59:01,261 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 01:59:01,262 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:18:47,179 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:18:47,183 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:18:47,185 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:18:47,186 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:20:25,636 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:20:25,640 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:20:25,641 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:20:25,642 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:21:07,765 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:07,771 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:21:07,773 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:07,774 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:21:14,914 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:14,916 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:21:14,919 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:14,920 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:21:35,444 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:35,449 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:21:35,454 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:35,456 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:21:46,961 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:46,963 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:21:46,965 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:46,966 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:21:58,999 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:59,038 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:21:59,046 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:21:59,047 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:22:30,808 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:22:30,811 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 02:22:30,812 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:22:30,813 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 02:40:54,855 [Worker-47: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-26 02:40:54,872 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:40:54,875 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-05-26 02:40:54,887 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:40:54,888 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 02:50:56,396 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:50:56,421 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:50:56,446 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:06,248 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:06,310 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:06,338 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:12,296 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:12,314 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:51:12,326 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:24,796 [Worker-38: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:24,882 [Worker-38: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:24,898 [Worker-38: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:31,509 [Worker-48: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:31,519 [Worker-48: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:52:31,553 [Worker-48: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:56:51,861 [Worker-50: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:56:51,873 [Worker-50: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:56:51,887 [Worker-50: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:21,041 [Worker-56: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:21,058 [Worker-56: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:21,076 [Worker-56: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:38,131 [Worker-58: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:38,146 [Worker-58: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:57:38,163 [Worker-58: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:04,778 [Worker-54: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:04,789 [Worker-54: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:04,799 [Worker-54: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:12,970 [Worker-57: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:12,981 [Worker-57: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:12,993 [Worker-57: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:31,759 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:31,777 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:31,786 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:53,811 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:58:53,814 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 02:58:53,816 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 02:58:53,817 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 02:58:55,176 [Worker-57: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:55,186 [Worker-57: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 02:58:55,196 [Worker-57: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:12:09,203 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:12:09,214 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:12:09,219 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:12:09,222 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:12:46,503 [Worker-54: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:12:46,527 [Worker-54: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:12:46,546 [Worker-54: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:16:24,315 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:16:24,319 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:16:24,321 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:16:24,322 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:16:33,026 [Worker-65: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:16:33,053 [Worker-65: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:16:33,082 [Worker-65: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:21:12,463 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:21:12,465 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:21:12,468 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:21:12,469 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:26:55,764 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:26:55,775 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:26:55,779 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:26:55,780 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:26:58,511 [Worker-69: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:26:58,535 [Worker-69: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:26:58,559 [Worker-69: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:28:54,578 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:28:54,580 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:28:54,586 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:28:54,587 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:28:56,366 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:28:56,387 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:28:56,431 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:30:56,114 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:30:56,129 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:30:56,137 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:30:56,139 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:30:57,421 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:30:57,490 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:30:57,541 [Worker-73: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:32:51,440 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:32:51,441 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:32:51,445 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:32:51,445 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:32:53,702 [Worker-75: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:32:53,712 [Worker-75: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:32:53,725 [Worker-75: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:38:55,279 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:38:55,292 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:38:55,297 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:38:55,298 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:38:56,680 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:38:56,703 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:38:56,726 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:43:01,039 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:43:01,041 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:43:01,046 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:43:01,047 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:43:02,537 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:43:02,569 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:43:02,605 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:45:42,869 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:45:42,883 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:45:42,893 [Worker-76: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:45,109 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:45,138 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:45,228 [Worker-52: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:52,158 [Worker-82: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:52,173 [Worker-82: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:52,186 [Worker-82: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:58,190 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:58,206 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:46:58,221 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:49:48,339 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:49:48,343 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:49:48,347 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:49:48,348 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:49:50,356 [Worker-52: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:49:50,385 [Worker-52: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:49:50,419 [Worker-52: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:03,260 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:50:03,262 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:50:03,266 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:50:03,267 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:50:04,586 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:04,597 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:04,608 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:12,686 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:50:12,689 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:50:12,692 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:50:12,693 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:50:20,837 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:20,852 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:50:20,871 [Worker-82: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:43,282 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:51:43,284 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:51:43,286 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:51:43,288 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:51:44,680 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:44,694 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:44,705 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:49,901 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:51:49,903 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:51:49,907 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:51:49,908 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:51:51,236 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:51,247 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:51:51,257 [Worker-50: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:52:45,761 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:52:45,769 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:52:45,777 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:52:45,780 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:52:47,631 [Worker-90: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:52:47,643 [Worker-90: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:52:47,653 [Worker-90: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:56:25,842 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:56:25,852 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:56:25,860 [Worker-77: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:58:52,053 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:58:52,137 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 03:58:52,209 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 03:58:52,279 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 03:58:56,167 [Worker-88: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:58:56,178 [Worker-88: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:58:56,188 [Worker-88: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:27,157 [Worker-77: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:27,217 [Worker-77: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:27,229 [Worker-77: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:38,905 [Worker-87: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:38,918 [Worker-87: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:38,930 [Worker-87: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:45,537 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:45,546 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 03:59:45,555 [Worker-80: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:16:58,264 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:16:58,275 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:16:58,280 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:16:58,281 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:17:19,818 [Worker-105: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:17:19,839 [Worker-105: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:17:19,866 [Worker-105: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:17:52,251 [Worker-92: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:17:52,264 [Worker-92: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:17:52,273 [Worker-92: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:20:50,672 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:20:50,674 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:20:50,676 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:20:50,677 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:21:02,494 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:21:02,527 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:21:02,555 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:00,014 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:00,024 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:00,033 [Worker-106: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:08,595 [Worker-99: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:08,617 [Worker-99: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:08,631 [Worker-99: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:12,822 [Worker-108: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:12,833 [Worker-108: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:12,842 [Worker-108: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:21,610 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:22:21,612 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:22:21,615 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:22:21,616 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:22:25,097 [Worker-107: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:25,118 [Worker-107: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:22:25,138 [Worker-107: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:05,066 [Worker-108: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:05,094 [Worker-108: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:05,158 [Worker-108: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:09,644 [Worker-80: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:09,653 [Worker-80: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:23:09,662 [Worker-80: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:34,582 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:27:34,584 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:27:34,587 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:27:34,588 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:27:41,314 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:27:41,315 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:27:41,317 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:27:41,318 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:27:49,166 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:49,178 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:49,190 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:58,569 [Worker-108: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:58,582 [Worker-108: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:27:58,592 [Worker-108: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:00,789 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:31:00,791 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:31:00,794 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:31:00,796 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:31:05,068 [Worker-111: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:05,087 [Worker-111: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:05,106 [Worker-111: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:43,324 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:43,334 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:43,343 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:49,506 [Worker-113: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:49,516 [Worker-113: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:31:49,525 [Worker-113: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:19,906 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:36:19,909 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:36:19,914 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:36:19,915 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:36:28,615 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:28,624 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:28,635 [Worker-110: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:33,776 [Worker-116: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:33,785 [Worker-116: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:33,793 [Worker-116: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:52,373 [Worker-118: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:52,384 [Worker-118: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:36:52,393 [Worker-118: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:39:46,833 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:39:46,857 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:39:46,867 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:39:46,868 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:40:17,809 [Worker-119: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:40:17,824 [Worker-119: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:40:17,835 [Worker-119: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:40:23,499 [Worker-119: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:40:23,511 [Worker-119: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:40:23,522 [Worker-119: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:42:45,659 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:42:45,662 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:42:45,667 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:42:45,668 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:42:54,381 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:42:54,392 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:42:54,401 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:43:02,233 [Worker-115: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:43:02,243 [Worker-115: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:43:02,252 [Worker-115: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:45:58,458 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:45:58,461 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:45:58,466 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:45:58,467 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:46:05,189 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:46:05,198 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:46:05,206 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:46:52,128 [Worker-123: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:46:52,137 [Worker-123: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:46:52,146 [Worker-123: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:22,743 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:22,761 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:22,777 [Worker-117: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:26,908 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:49:26,910 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:49:26,914 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:49:26,914 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:49:30,894 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:30,904 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:49:30,913 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:43,691 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:51:43,693 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 19:51:43,697 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:51:43,698 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:51:50,078 [Worker-123: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:50,096 [Worker-123: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:50,110 [Worker-123: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:54,724 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:54,736 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:51:54,744 [Worker-117: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:16,728 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-26 19:55:32,359 [Worker-3: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-26 19:55:32,421 [Worker-3: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:32,491 [Worker-3: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:32,536 [Worker-3: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:43,225 [Worker-0: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:43,249 [Worker-0: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:55:43,275 [Worker-0: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:58:10,334 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:58:10,344 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-05-26 19:58:10,359 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 19:58:10,361 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 19:58:14,242 [Worker-7: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:58:14,265 [Worker-7: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 19:58:14,283 [Worker-7: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:00:58,974 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:00:58,977 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 20:00:58,980 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:00:58,982 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 20:01:07,873 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:01:07,877 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:01:07,882 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:01:07,884 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:01:09,986 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:01:10,019 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:01:10,048 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:01,681 [Worker-15: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:01,715 [Worker-15: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:01,747 [Worker-15: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:45,002 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:03:45,004 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:03:45,006 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:03:45,007 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:03:46,773 [Worker-6: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:46,798 [Worker-6: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:03:46,817 [Worker-6: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:06:43,974 [Worker-6: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:06:43,998 [Worker-6: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:06:44,022 [Worker-6: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:07:06,210 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:07:06,228 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:07:06,243 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:09:18,717 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:09:18,720 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:09:18,723 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:09:18,724 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:09:21,609 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:09:21,623 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:09:21,638 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:13:37,122 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:13:37,127 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:13:37,131 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:13:37,132 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:13:38,877 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:13:38,900 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:13:38,927 [Worker-14: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:16:16,949 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:16:16,952 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:16:16,955 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:16:16,956 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:16:18,328 [Worker-20: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:16:18,352 [Worker-20: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:16:18,383 [Worker-20: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:07,258 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:07,262 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:19:07,269 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:07,272 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:19:23,137 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:23,139 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:19:23,142 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:23,143 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:19:39,671 [Worker-22: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:39,780 [Worker-22: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:39,859 [Worker-22: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:49,556 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:49,557 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:19:49,559 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:19:49,560 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:19:53,025 [Worker-18: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:53,039 [Worker-18: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:53,054 [Worker-18: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:58,519 [Worker-11: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:58,532 [Worker-11: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:19:58,550 [Worker-11: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:28:37,300 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:28:37,318 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:28:37,339 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:29:48,633 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:29:48,653 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:29:48,678 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:03,532 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:30:03,548 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:30:03,558 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:30:03,568 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:30:05,312 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:05,324 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:05,337 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:17,547 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:30:17,550 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-26 20:30:17,552 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 20:30:17,554 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources
+2021-05-26 20:30:21,737 [Worker-30: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:21,759 [Worker-30: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:21,781 [Worker-30: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:30,902 [Worker-29: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:30,918 [Worker-29: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:30:30,954 [Worker-29: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:17,685 [Worker-29: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:17,733 [Worker-29: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:17,756 [Worker-29: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:33,701 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:33,718 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:33,734 [Worker-25: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:41,879 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:41,890 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:31:41,900 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:36,385 [Worker-27: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:36,396 [Worker-27: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:36,406 [Worker-27: Launching BenchServer-startup] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:41,665 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:41,676 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:32:41,689 [Worker-27: Launching Client-load] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:34:54,037 [Worker-27: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:34:54,058 [Worker-27: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:34:54,071 [Worker-27: Launching VanillaDB_Start] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:35:03,723 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:35:03,732 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 20:35:03,744 [Worker-26: Launching Client-run] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier null to /core-patch/target/classes
+2021-05-26 21:15:05,265 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:15:05,275 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 21:15:05,277 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:15:05,279 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-26 21:28:10,359 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-26 21:28:31,619 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:28:31,630 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 21:28:31,656 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:28:31,658 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-05-26 21:28:33,417 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/core-patch: org.vanilladb:core-patch:0.4.1-2021-spring-as5 with classifier  to /core-patch/target/classes
+2021-05-26 21:28:33,430 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:28:33,432 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-05-26 21:28:33,442 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-26 21:28:33,444 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/timchang/database_systems/db21-assignment-5/bench/src/test/resources

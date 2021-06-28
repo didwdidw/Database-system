@@ -1,0 +1,17 @@
+# of txns (including aborted) during benchmark period: 127516
+time(sec), throughput(txs), avg_latency(ms), min(ms), max(ms), 25th_lat(ms), median_lat(ms), 75th_lat(ms)
+5,10558,0,0,12,0,0,1
+10,11019,0,0,7,0,0,0
+15,11410,0,0,6,0,0,0
+20,7753,1,0,71,0,0,1
+25,10228,0,0,6,0,0,1
+30,11098,0,0,10,0,0,0
+35,11268,0,0,5,0,0,0
+40,11059,0,0,6,0,0,0
+45,10491,0,0,9,0,0,1
+50,10466,0,0,27,0,0,1
+55,10169,0,0,14,0,0,1
+60,10952,0,0,6,0,0,0
+READ_ITEM - committed: 114106, aborted: 615, avg latency: 0 ms
+UpdateItemPrice - committed: 12365, aborted: 430, avg latency: 1 ms
+TOTAL - committed: 126471, aborted: 1045, avg latency: 1 ms

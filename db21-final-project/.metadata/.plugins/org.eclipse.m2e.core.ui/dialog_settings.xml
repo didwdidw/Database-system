@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/timchang/database_systems/db21-final-project/elasqlbench"/>
+			<item value="/Users/timchang/database_systems/db21-final-project/elasql"/>
+			<item value="/Users/timchang/database_systems/db21-final-project/vanillabench"/>
+			<item value="/Users/timchang/database_systems/db21-final-project/vanillacore"/>
+			<item value="/Users/timchang/database_systems/db21-final-project/vanillacomm"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

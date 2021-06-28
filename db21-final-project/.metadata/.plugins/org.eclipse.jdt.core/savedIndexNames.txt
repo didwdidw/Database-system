@@ -1,0 +1,15 @@
+INDEX VERSION 1.131+/Users/timchang/database_systems/db21-final-project/.metadata/.plugins/org.eclipse.jdt.core
+1926293924.index
+3212605856.index
+3466215018.index
+124760325.index
+3644614132.index
+1455025456.index
+2097020684.index
+121397104.index
+3216191074.index
+2178875387.index
+206821678.index
+2365211617.index
+464307048.index
+567831853.index
